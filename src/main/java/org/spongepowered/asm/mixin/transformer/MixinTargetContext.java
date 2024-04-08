@@ -507,7 +507,7 @@ public class MixinTargetContext extends ClassContext implements IMixinContext {
             ex.prepend(this.activities);
             throw ex;
         } catch (Exception ex) {
-            throw new InvalidMixinException(this, "Unexpecteded " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
+            throw new InvalidMixinException(this, "Unexpected " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
                     this.activities);
         }
     }
@@ -1283,7 +1283,7 @@ public class MixinTargetContext extends ClassContext implements IMixinContext {
             ex.prepend(this.activities);
             throw ex;
         } catch (Exception ex) {
-            throw new InvalidMixinException(this, "Unexpecteded " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
+            throw new InvalidMixinException(this, "Unexpected " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
                     this.activities);
         }
     }
@@ -1347,7 +1347,7 @@ public class MixinTargetContext extends ClassContext implements IMixinContext {
             ex.prepend(this.activities);
             throw ex;
         } catch (Exception ex) {
-            throw new InvalidMixinException(this, "Unexpecteded " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
+            throw new InvalidMixinException(this, "Unexpected " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
                     this.activities);
         }
     }
@@ -1390,7 +1390,7 @@ public class MixinTargetContext extends ClassContext implements IMixinContext {
             ex.prepend(this.activities);
             throw ex;
         } catch (Exception ex) {
-            throw new InvalidMixinException(this, "Unexpecteded " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
+            throw new InvalidMixinException(this, "Unexpected " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
                     this.activities);
         }
     }
@@ -1431,7 +1431,7 @@ public class MixinTargetContext extends ClassContext implements IMixinContext {
             ex.prepend(this.activities);
             throw ex;
         } catch (Exception ex) {
-            throw new InvalidMixinException(this, "Unexpecteded " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
+            throw new InvalidMixinException(this, "Unexpected " + ex.getClass().getSimpleName() + " whilst transforming the mixin class:", ex,
                     this.activities);
         }
         
